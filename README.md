@@ -21,21 +21,23 @@ You can install any missing libraries using:
 pip install pandas
 
 ## Project Structure
-
-play_tennis_data.json: JSON file containing the "Play Tennis" dataset for training.
-test_data.json: JSON file containing additional test instances.
-naive_bayes_model.json: JSON file where the trained model (priors and likelihoods) is saved.
-classification_log.txt: Log file generated during model evaluation on the training dataset.
-testing_log.txt: Log file generated during model evaluation on the test dataset.
-README.md: Documentation for using the code.
+`main.py`: Python file that has the script  <br> 
+`play_tennis_data.json`: JSON file containing the "Play Tennis" dataset for training. <br> 
+`test_data.json`: JSON file containing additional test instances. <br> 
+`naive_bayes_model.json`: JSON file where the trained model (priors and likelihoods) is saved. <br> 
+`classification_log.txt`: Log file generated during model evaluation on the training dataset. <br> 
+`testing_log.txt`: Log file generated during model evaluation on the test dataset. <br> 
+`README.md`: Documentation for using the code.
 
 ## Usage
 Load the Data Ensure that play_tennis_data.json (training data) and test_data.json (test data) are in the same directory as the script.
 
-Run the Classifier
+### Run the Classifier
 
 Run the code with:
+```bash
 python main.py
+```
 
 This will:
 
@@ -63,9 +65,9 @@ If test data is provided, its performance on this test data will be recorded in 
 
 
 ## Files and Logs
-naive_bayes_model.json: Stores the trained model (priors and likelihoods) for future predictions.
-classification_log.txt: Logs the predicted vs actual results and accuracy on the training dataset.
-testing_log.txt: Logs the predicted vs actual results and accuracy on the test dataset.
+`naive_bayes_model.json`: Stores the trained model (priors and likelihoods) for future predictions. <br> 
+`classification_log.txt`: Logs the predicted vs actual results and accuracy on the training dataset. <br> 
+`testing_log.txt`: Logs the predicted vs actual results and accuracy on the test dataset.
 
 ## Notes
 To modify the test instance, update the dictionary in the __main__ section.
