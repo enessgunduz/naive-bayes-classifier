@@ -1,0 +1,6 @@
+Instance 1 - Predicted: Yes, Actual: Yes
+Instance 2 - Predicted: Yes, Actual: Yes
+Instance 3 - Predicted: Yes, Actual: No
+Instance 4 - Predicted: No, Actual: No
+Instance 5 - Predicted: Yes, Actual: Yes
+Accuracy: 0.8

@@ -1,0 +1,15 @@
+Instance 1 - Predicted: No, Actual: No
+Instance 2 - Predicted: No, Actual: No
+Instance 3 - Predicted: Yes, Actual: Yes
+Instance 4 - Predicted: Yes, Actual: Yes
+Instance 5 - Predicted: Yes, Actual: Yes
+Instance 6 - Predicted: Yes, Actual: No
+Instance 7 - Predicted: Yes, Actual: Yes
+Instance 8 - Predicted: No, Actual: No
+Instance 9 - Predicted: Yes, Actual: Yes
+Instance 10 - Predicted: Yes, Actual: Yes
+Instance 11 - Predicted: Yes, Actual: Yes
+Instance 12 - Predicted: Yes, Actual: Yes
+Instance 13 - Predicted: Yes, Actual: Yes
+Instance 14 - Predicted: No, Actual: No
+Accuracy: 0.9285714285714286
